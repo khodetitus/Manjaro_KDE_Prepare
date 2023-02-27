@@ -2,7 +2,7 @@
 
 ## Update pacman package manager:
 #### sudo pacman -Syyu
-
+####
 ## Install & Update aur package manager:
 #### sudo pacman -S yay
 #### yay -Syyu
