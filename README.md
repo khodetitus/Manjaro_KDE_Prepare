@@ -1,5 +1,4 @@
-#! /bin/bash
-
+#ManjaroPrepare
 # Update pacman package manager:
 sudo pacman -Syyu
 
