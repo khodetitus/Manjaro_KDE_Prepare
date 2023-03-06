@@ -93,7 +93,7 @@ sudo chmod +x /usr/bin/dumpcap
 ## other tools:
 sudo pacman -S remmina net-tools nmap
 yay -S wrk
-
+sudo pamac install putty
 #--------------------------------------------------------------------------------------------
 # Enable TRIM for SSD
 sudo systemctl enable fstrim.timer
