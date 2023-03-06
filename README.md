@@ -75,6 +75,7 @@
 * other tools:
 * sudo pacman -S remmina net-tools nmap
 * yay -S wrk
+* pamac install putty
 
 ## Enable TRIM for SSD
 * sudo systemctl enable fstrim.timer
