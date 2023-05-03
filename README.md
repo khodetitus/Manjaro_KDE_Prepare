@@ -53,7 +53,8 @@
 * sudo pacman -S zsh screenfetch neofetch
 * yay -S translate-shell nerdfetch pantheon-terminal figlet lolcat
 * sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-* sudo screenfetch >> ~/.zshrc
+*sudo su
+* echo screenfetch >> /etc/bash.bashrc
 
 ## Graphic tools:
 * sudo pacman -S gimp krita rnote shotwell gwenview inkscape appimagelauncher snapper flameshot
