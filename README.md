@@ -53,6 +53,7 @@
 * sudo pacman -S zsh screenfetch neofetch
 * yay -S translate-shell nerdfetch pantheon-terminal figlet lolcat
 * sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+* pamac build zsh-theme-powerlevel10k-git
 * sudo su
 * echo screenfetch >> /etc/bash.bashrc
 
