@@ -50,12 +50,14 @@
 * sudo snap install skype
 
 ## Customize Konsole:
+* sudo pacman -S zsh
+* sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+* git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+* ZSH_THEME="powerlevel10k/powerlevel10k" >> ~/.zshrc
 * sudo pacman -S zsh screenfetch neofetch
 * yay -S translate-shell nerdfetch pantheon-terminal figlet lolcat
-* sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-* pamac build zsh-theme-powerlevel10k-git
 * sudo su
-* echo screenfetch >> /etc/bash.bashrc
+* echo screenfetch >> ~/.zshrc
 
 ## Graphic tools:
 * sudo pacman -S gimp krita rnote shotwell gwenview inkscape appimagelauncher snapper flameshot
